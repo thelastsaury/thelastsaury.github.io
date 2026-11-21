@@ -1,0 +1,9 @@
+:root{color-scheme:dark;--bg:#111818;--panel:#1b2524;--text:#f4f1e8;--soft:#bdcbc4;--accent:#b9df9d}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.7 system-ui,"PingFang SC",sans-serif}
+header,main,footer{width:min(100% - 2.5rem,70rem);margin:auto}header,footer{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.25rem 0}header{border-bottom:1px solid #3a4843}footer{border-top:1px solid #3a4843;margin-top:4rem;color:var(--soft)}
+a{color:var(--accent);text-underline-offset:.24em}a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.intro{padding:clamp(2.5rem,8vw,6rem) 0 2rem}.intro p,.meta,figcaption{color:var(--soft)}
+h1,h2,h3,p,figure{margin:0}h1{font-size:clamp(2.7rem,7vw,6rem);line-height:1.05;letter-spacing:-.045em;margin:.25em 0}h2{font-size:1.65rem;margin-bottom:.6rem}h3{font-size:1.25rem}
+.cards,.pair{display:grid;grid-template-columns:1.65fr 1fr;gap:1rem}.pair{grid-template-columns:1fr 1fr;margin-top:1rem}.card{background:var(--panel);border-radius:1rem;overflow:hidden}.card>div{padding:1.3rem}.card a{display:inline-block;margin-top:.7rem}
+img{display:block;width:100%;height:auto}.card img{aspect-ratio:16/8;object-fit:cover}.project-cover{border-radius:1rem}.content{margin-top:2.5rem}.content p+p{margin-top:.75rem}figcaption{padding:.7rem 0;font-size:.95rem}
+@media(max-width:640px){.cards,.pair{grid-template-columns:1fr}}
