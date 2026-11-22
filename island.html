@@ -1,17 +1,42 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>绒息岛 · Soleil</title><link rel="stylesheet" href="style.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>绒息岛 · Soliel</title><link rel="stylesheet" href="style.css"></head>
 <body>
-<header><strong>Soleil</strong><nav aria-label="主要导航"><a href="index.html#work">返回作品</a></nav></header>
+<header><strong>Soliel</strong><nav class="tabs" aria-label="主要导航"><a href="index.html">首页</a><a href="about.html">关于我</a><a href="work.html">作品</a></nav></header>
 <main>
 <section class="intro"><p>百校造百岛 · 双人合作解谜</p><h1>绒息岛</h1><p>从一次敲钟，到一座岛复苏。</p></section>
 <img class="project-cover" src="assets/hero.jpeg" alt="绒息岛项目主视觉">
 <section class="content"><h2>故事与我的分工</h2><p>两名玩家从沙滩的大钟出发，跟随动物的线索探索小岛，最后救出蜥蜴，回到沙滩修复大钟。</p><p>我负责故事主线、角色对话、任务流程与双人机关设计，并借助 AI 把构思做成可游玩的场景和机关。</p></section>
+<section class="content">
+<h2>玩家怎样走完这座岛</h2>
+<figure><img class="overview" src="assets/island.jpeg" alt="《绒息岛》实机岛屿概览" loading="lazy"><figcaption>实机岛屿概览</figcaption></figure>
+<ol class="route">
+<li><strong>沙滩</strong><p>敲钟召唤向导。两人各找四个贝壳，解锁按钮并开门，进入森林。</p></li>
+<li><strong>森林</strong><p>找到净雾之泉、生芽之露和繁茂之华，让枯树长出树冠。小鸟送出能滑翔的羽毛，并指路去找羊。</p></li>
+<li><strong>天空岛</strong><p>两人在紫色房子里配合生成、锁定台阶并召唤云朵。登岛后，用羽毛滑翔帮助云团羊克服恐惧。</p></li>
+<li><strong>花瓣兔与火山</strong><p>解开花瓣兔的三个谜语，拿到种子，再踩亮九宫格并通过传送阵进入火山。</p></li>
+<li><strong>回到沙滩</strong><p>通过火山的双人平台救出蜥蜴，带它回主岛获得金属块，修好最初那口钟。</p></li>
+</ol>
+</section>
 <section class="content"><h2>两个人怎样打开路</h2><div class="pair">
 <figure><img src="assets/beach.jpeg" alt="沙滩关卡，门前有两个按钮" loading="lazy"><figcaption><strong>沙滩 · 同时按下按钮</strong><br>两人可以分头找贝壳，但开门需要同时按下按钮。独立探索在这里过渡到同步合作。</figcaption></figure>
 <figure><img src="assets/volcano.jpeg" alt="火山关卡，玩家要通过分开的平台" loading="lazy"><figcaption><strong>火山 · 解锁同伴的落脚点</strong><br>玩家每踩上一处平台，就为对方解锁下一处落脚点。两人靠接力才能一起前进。</figcaption></figure>
 </div></section>
-<section class="content"><h2>让前一关的道具派上用场</h2><p>治愈古树后，玩家从小鸟那里得到滑翔羽毛。到了天空岛，羽毛能帮助他们接近云团羊，把森林任务和后续关卡连在一起。</p></section>
+<section class="content">
+<h2>把提示和反馈放进岛里</h2>
+<p>向导和动物的对话告诉玩家接下来可以做什么，场景变化则告诉他们刚才的操作起了什么作用。古树长出树冠、九宫格全部亮起，都是玩家能直接看到的结果。</p>
+<div class="pair">
+<figure><img src="assets/tree-before.jpeg" alt="修复前，只有光秃枝条的古树" loading="lazy"><figcaption>修复前 · 古树枝条光秃</figcaption></figure>
+<figure><img src="assets/tree-after.jpeg" alt="修复后，重新长出树冠的古树" loading="lazy"><figcaption>修复后 · 古树重新长出树冠</figcaption></figure>
+<figure><img src="assets/grid.jpeg" alt="九宫格机关全部亮起" loading="lazy"><figcaption>九宫格全亮，通往火山的门解锁。</figcaption></figure>
+<figure><img src="assets/bird.jpeg" alt="小鸟用对话提示滑翔羽毛的用途" loading="lazy"><figcaption>小鸟在对话里交代羽毛的滑翔用途。</figcaption></figure>
+</div>
+</section>
+<section class="content">
+<h2>做完这个项目，我记住了什么</h2>
+<p>我想让玩家过一关之后，还记得自己在上一关做过什么。治愈古树时，玩家先知道羽毛能滑翔。到了天空岛，他们用羽毛帮助云团羊，森林里的那段经历才有了新的用处。</p>
+<p>在实现上，我先写清道具的用途、机关的触发条件和两名玩家各自要做什么，再借助 AI 把这些设定做成可操作的场景。</p>
+</section>
 </main>
-<footer><span>Soleil</span><a href="index.html#work">全部作品</a></footer>
+<footer><span>Soliel</span><a href="work.html">全部作品</a></footer>
 </body></html>
