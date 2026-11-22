@@ -60,7 +60,7 @@ export function contextOf(p: Project) {
 }
 
 export const projects: Project[] = [{
-  id: 'island', title: '绒息岛', org: '百校造百岛', period: '',
+  id: 'island', title: '绒息岛', org: '百校造百岛', period: '2026.10',
   pitch: { en: 'Two players work together to restore an island, starting and ending at its bell.', zh: '从一次敲钟，到一座岛复苏。' },
   cover: { src: '/projects/island/hero.jpeg', alt: '绒息岛项目主视觉' },
   slides: [

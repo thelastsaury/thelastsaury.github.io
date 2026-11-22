@@ -100,3 +100,5 @@ footer { padding-block: 1.4rem; }
   .home .intro::before { top: 17%; right: 2%; }
   .home .intro::after { top: 10%; right: 34%; }
 }
+
+.project-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 1rem; }
