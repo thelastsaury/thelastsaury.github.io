@@ -10,6 +10,6 @@ export const site: { name: string; caption: Text; place: Text; email: string; li
   place: { en: 'from cuc', zh: 'from cuc' },
   email: '',
   links: [
-    { label: 'GitHub', href: 'https://github.com/sanma-no-yoru' },
+    { label: 'GitHub', href: 'https://github.com/thelastsaury' },
   ],
 }
